@@ -3,7 +3,7 @@
 
     <head>
         
-        <title>Hospital Appointy</title>
+        <title>eMDX-Practitioner</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,10 +42,10 @@
         <div class="jumbotron text-center">
 
                              <a class="navbar-brand" href="#myPage">
-                            <img class="logo" class="img-responsive" src="img/lo.png" alt="" style="width:100%;"></a>
+                            <img class="logo" class="img-responsive" src="img/lo.png" alt="" style="width:50%;"></a>
 
-          <h1>Hospital Appointy</h1> 
-          <p>The Hospital that change your Thinking</p> 
+          <h1>eMDX-Practitioner</h1> 
+          
           
         </div>
 
@@ -53,23 +53,7 @@
         <div id="about" class="container-fluid">
             
             <div class="row">
-                <div class="col-sm-6 text-center" id="sign1">
-                  <h2 class=" text-center login-title">Login Page</h2>
-                        <div class="ac">
-
-                            <img class="profile-img" src="img/lo.png" alt="">
-                            
-                            <input type="text" class="form-control" placeholder="Email" required autofocus id="email">
-                            <input type="password" class="form-control" placeholder="Password" required id="password">
-
-
-                            <button id="shubh" class="btn btn-lg btn-block "  onclick="login()"> Sign in </button>
-
-                          
-                        </div>
-                        <a href="#signup1" class="text-center new-account">Create an account </a>
-                </div>
-                
+              
               
                 <div class="col-sm-6" id="sign2">
                  
@@ -86,24 +70,24 @@
                       <div class="item active">
                         <img src="img/la.jpg" alt="Los Angeles" style="width:100%;">
                         <div class="carousel-caption">
-                          <h3>Hospital Appointy</h3>
-                          <p>A hospital is no place to be sick.</p>
+                          <h3>eMDX-Patient</h3>
+                          <p>Consult a Doctor Online.</p>
                         </div>
                       </div>
 
                       <div class="item">
                         <img src="img/chicago.jpg" style="width:100%;">
                         <div class="carousel-caption">
-                          <h3>Hospital Appointy</h3>
-                          <p>A hospital is a good place to set various dilemmas.</p>
+                          <h3>eMDX-Practitioner</h3>
+                          <p>Create your own Schedule.</p>
                         </div>
                       </div>
                     
                       <div class="item">
                         <img src="img/ny.jpg"  style="width:100%;">
                         <div class="carousel-caption">
-                          <h3>Hospital Appointy</h3>
-                          <p>I can't keep track of my hospital time. It all sort of blurs together.</p>
+                          <h3>eMDX-Health</h3>
+                          <p>Revolutionising healthcare delivery.</p>
                         </div>
                   </div>
               
@@ -121,30 +105,43 @@
                 </div>
               </div>
 
+
+              <div class="col-sm-6 text-center" id="sign1">
+                <h2 class=" text-center login-title">Login</h2>
+                      <div class="ac">
+
+                          <input type="text" class="form-control" placeholder="Email" required autofocus id="email">
+                          <p></p> 
+                          <input type="password" class="form-control" placeholder="Password" required id="password">
+                          <p></p> 
+
+                          <button id="shubh" class="btn btn-lg btn-block "  onclick="login()"> Sign in </button>
+
+                      </div>
+                      <a href="#signup1" class="text-center new-account">Create an account </a>
+              </div>
+              
             </div>
         </div>
 
 
         <div id="services" class="container-fluid text-center">
-          <h2>Sign up</h2>
-          <h4>We offer sign up as manger and doctor </h4>
+          <h2>Register as an eMDX-Practitioner</h2>
+
           <br>
           <div class="row slideanim">
             <div class="col-sm-6 page-header">
               <span class="glyphicon glyphicon-heart logo-small"></span>
-              <a href="#signupdoctor" ><h4 onclick="logout()">SignUP as Doctor</h4></a> 
+              <a href="#signupdoctor" ><h4 onclick="logout()">Register as Doctor</h4></a> 
             </div>
             <div class="col-sm-6 page-header">
               <span class="glyphicon glyphicon-user logo-small"></span>
-              <a href="#signupmanger"><h4>Sign Up as Manager</h4></a>
+              <a href="#signupmanger"><h4>Register as an Instituion</h4></a>
             </div>
            
 
         <div class="container" id="signup1">
 
-              <h3>Input Groups</h3>
-              <p>This is the signn uppage</p>
-              
               <form class="form-horizontal">
                 <div class="input-group col-xs-12">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -199,6 +196,7 @@
   <option value="Dermatologists">Dermatologists</option>
     <option value="Endocrinologists">Endocrinologists</option>
       <option value="Gastroenterologists">Gastroenterologists</option>
+      <option value="General Practitioner">General Practitioner</option>
         <option value="Hematologists">Hematologists</option>
           <option value="Internists">Internists</option>
             <option value="Nephrologists">Nephrologists</option>
@@ -253,7 +251,6 @@
 
        
 <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
