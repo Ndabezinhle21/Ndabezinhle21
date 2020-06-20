@@ -170,18 +170,27 @@ $(document).ready(function(){
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-messaging.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-functions.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
 <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCf-Gf-VaHnV12k2_elsrF49EYkEkEIcps",
-    authDomain: "hospitalappointy-bc0aa.firebaseapp.com",
-    databaseURL: "https://hospitalappointy-bc0aa.firebaseio.com",
-    projectId: "hospitalappointy-bc0aa",
-    storageBucket: "hospitalappointy-bc0aa.appspot.com",
-    messagingSenderId: "15885979934"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAH9K4_L9EAKxqx0Mb-TvJUI4EUdCPRDqI",
+    authDomain: "qparkagent.firebaseapp.com",
+    databaseURL: "https://qparkagent.firebaseio.com",
+    projectId: "qparkagent",
+    storageBucket: "qparkagent.appspot.com",
+    messagingSenderId: "572164716597",
+    appId: "1:572164716597:web:abb59809fc25c01f91597c"
   };
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 </script>
+
 <script type="text/javascript" src="js/manjs.js"></script>
 </body>
 </html>
