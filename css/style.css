@@ -2,15 +2,26 @@
  body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
-      color: #818181;
+      color: #ffff;
+      background-image: url('../img/chicago.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
   }
+
+
+
+
+  h1 {
+    font-family:'Montserrat';
+   }
   h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
+      font-size: 72px;
+      color: #0F7DC2;
       font-weight: 600;
       margin-bottom: 10px;
       margin-top: 10px;
+      font-family:'Montserrat'
   }
   h4 {
       font-size: 19px;
@@ -18,6 +29,7 @@
       color: #303030;
       font-weight: 400;
       margin-bottom: 10px;
+      font-family:'Montserrat'
   }  
   .jumbotron {
     height: 260px;
@@ -137,7 +149,7 @@
 
 .form-signin
 {
-    max-width: 330px;
+    max-width: 25%;
     padding: 15px;
     margin: 0 auto;
 }
@@ -179,14 +191,15 @@
 {
     margin-top: 20px;
     padding: 0px 0px 20px 0px;
-    background-color: #f7f7f7;
+    background-color: #fff;
  }   
 .login-title
 {
-    color: #555;
+    color: #0F7DC2;
     font-size: 18px;
     font-weight: 400;
     display: block;
+    font-family:'Montserrat'
 }
 .profile-img
 {
@@ -206,17 +219,32 @@
 {
     display: block;
     margin-top: 10px;
+    font-family:'Montserrat'
 }
 #sign1{
-    background-color:#f7f7f7;
-    padding: 0px;
+    background-color:#fff;
+    align-content: center;
+    font-family:'Montserrat';
+    margin: auto;
+    width: 25%;
+    padding: 50px;
+    background-image: url('img/chicago.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    border: 3px solid #0F7DC2;
+    margin-top: 100px;
+
+
 }
 
 #sign2{
-    background-color:#f7f7f7;
+    background-color:#fff;
+    font-family:'Montserrat'
 }
 #btn5{
   color: white;
+  font-family:'Montserrat'
 }
 #shubh{
 background-color:#0080ff;
@@ -250,7 +278,7 @@ background-color:#0080ff;
 
 
 /* Change the direction of the transition. */
-/*@media all and (transform-3d), (-webkit-transform-3d) {
+@media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item.next,
   .carousel-inner > .item.active.right {
     right:  0;
@@ -263,4 +291,4 @@ background-color:#0080ff;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
   }
-}*/
+} 
